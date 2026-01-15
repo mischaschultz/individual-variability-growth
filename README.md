@@ -1,13 +1,9 @@
 # individual-variability-growth
 Bayesian hierarchical analysis of individual growth variation in greater amberjack using otolith back-calculation
 
-## Overview
-
-This repository contains some code examples for estimating individual-level growth parameters from otolith increment data. The analysis uses back-calculation methods to reconstruct size-at-age histories and applies hierarchical Bayesian models to quantify individual variation in growth trajectories for greater amberjack in the Gulf of Mexico. 
-
 ## Workflow
 
-The analysis follows a sequential three-step process:
+This repository contains some code examples for estimating individual-level growth parameters from otolith increment data. The analysis uses back-calculation methods to reconstruct size-at-age histories and applies hierarchical Bayesian models to quantify individual variation in growth trajectories for greater amberjack in the Gulf of Mexico. The analysis follows a sequential three-step process:
 
 ### 1. Data Preparation (`01_TidyData.R`)
 - Transforms raw otolith measurements from wide to long format

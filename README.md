@@ -76,22 +76,6 @@ ggridges
 
 - **JAGS:** Requires JAGS installation (see [JAGS homepage](https://mcmc-jags.sourceforge.io/))
 
-## Directory Structure
-
-```
-project/
-├── data/
-│   ├── individual_growth.csv              # Raw input data
-│   ├── greater_amberjack_growth_data_tidy.csv
-│   └── back_calculated_lengths.csv
-├── figures/
-│   └── vonB_Ind_Both.png
-├── 01_TidyData.R
-├── 02_BackCalculation.R
-├── 03_vgbf_jags.R
-└── README.md
-```
-
 ## Usage
 
 Run scripts sequentially in numerical order:

@@ -112,9 +112,9 @@ inits <- function() {
 }
 
 # MCMC Settings ----------------------------------------------------------------
-ni <- 50000   # Iterations
+ni <- 500000   # Iterations
 nt <- 2      # Thinning
-nb <- 10000   # Burn-in
+nb <- 100000   # Burn-in
 nc <- 4      # Chains
 
 # Parameters to Save -----------------------------------------------------------
@@ -580,4 +580,5 @@ cat("Percentage of significantly different pairs:",
     round(male_linf_comparison$percent_signif, 2), "%\n")
 
 # Save workspace ---------------------------------------------------------------
+
 save.image("04_vgbf_jags.RData")

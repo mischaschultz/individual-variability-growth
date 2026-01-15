@@ -140,10 +140,3 @@ The analysis produces:
 **Growth Modeling:**
 - von Bertalanffy, L. (1938). A quantitative theory of organic growth. *Human Biology*, 10(2), 181-213.
 
-## License
-
-This code is provided for academic and research purposes.
-
-## Contact
-
-For questions about the analysis or methods, please open an issue in this repository.

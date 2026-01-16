@@ -581,4 +581,5 @@ cat("Percentage of significantly different pairs:",
 
 # Save workspace ---------------------------------------------------------------
 
-save.image("04_vgbf_jags.RData")
+save.image("03_vgbf_jags.RData")
+

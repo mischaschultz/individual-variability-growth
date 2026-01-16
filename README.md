@@ -21,7 +21,7 @@ This repository contains some code examples for estimating individual-level grow
 **Input:** Tidy dataset from Step 1  
 **Output:** Dataset with back-calculated lengths (Li) at each age
 
-### 3. Growth Modeling with brms (`03_vgbf_jags.R`)
+### 3. Growth Modeling with JAGS (`03_vgbf_jags.R`)
 - Fits hierarchical von Bertalanffy growth functions using JAGS
 - Estimates population and individual-level growth parameters (Linf, k, t0)
 - Generates sex-specific growth models
